@@ -8,16 +8,17 @@
     <title>Calculator</title>
 </head>
 <body>
-    <table border="1">
+    <table class="calculator">
         <caption><h1>Calculator</h1></caption>
+
+        
         <tr>
-            <td colspan="4"><input type="text" id="res"></td>
+            <td colspan="4"><input class="display-box" type="text" id="res"></td>
         </tr>
         <tr>
-            <td><button onclick="ac()">AC</button></td>
+            <td colspan="2"><button onclick="ac()">AC</button></td>
             <td><button onclick="show('/')">/</button></td>
             <td><button onclick="show('%')">%</button></td>
-            <td><button onclick="back()"><<</button></td>
         </tr>
         <tr>
             <td><button onclick="show('1')">1</button></td>

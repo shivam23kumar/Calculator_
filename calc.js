@@ -11,5 +11,9 @@ function calc(){
 }
 
 function plusminus(){
-    
+    var output = document.getElementById("res").value;
+    if(output>0){
+        output = output * -1;
+    }
+    document.getElementById("res").value = output;
 }
